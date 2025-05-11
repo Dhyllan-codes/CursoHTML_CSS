@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../robo_fofo_avif.avif" type="image/x-icon">
+    <title>Modulo de caixas</title>
+    <style>
+        /* 
+        Modulo 15:
+
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-elements
+        > = children
+
+        Modulo 16:
+
+        padding = area entre o conteudo e a bord
+        bord = area entre o padding e o margin
+        margin = area entre o brod e o exterior
+        outline = entorno da borda dentro da area de margin
+
+        border: width -> style -> color
+        padding: top -> right -> bottom -> left
+        margin: top -> right -> bottom -> left
+        outline: width ->  style -> color
+
+        display: inline; (ou) block; (ou) inline-block;
+
+        
+        */
+        body{
+            background-color: rgb(255, 202, 103);
+        }
+        h1{
+            border-width: 2px;
+            border-style: solid;
+            border-color: blue;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+
+            outline-width: 10px;
+            outline-style: solid;
+            outline-color: rgb(170, 111, 0);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Testando certos estilos</h1>
+    <h2>Por exemplo neste daqui abaixo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quam. Segue este link a frente <a href="#">link</a></p>
+</body>
+</html>

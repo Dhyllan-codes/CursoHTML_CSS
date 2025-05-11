@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><ins><em>Demonstrando imagens e seus diversos size</em></ins></h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem de uma letra G">
+    </picture>
+    <h1><ins><em>Reproduzindo som</em></ins></h1>
+    <p>Vamos aprender a colocar sons em sites</p>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/Heartbeat Of The Wind - Asher Fulero.mp3" type="audio/mpeg">
+    </audio>
+    <video width="500" controls>
+        <source src="../Ex012/midia/video_escada_mp4.mp4" type="video/mp4">
+    </video>
+</body>
+</html>

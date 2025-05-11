@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- nada demais -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como surgiu o mascote do Android </title>
+    <link rel="shortcut icon" href="pacote-projeto-d010/imagens/favicon.ico" type="image/x-icon">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+    @font-face {
+        font-family: 'curso guanabara';
+        src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+    }
+    header{
+        background-image: linear-gradient(to top, rgb(26, 92, 56), rgb(60, 217, 131));
+        padding-bottom: 10px;
+    }
+
+    .h1{
+        text-align: center;
+        color: white;
+        margin-top: 0%;
+        border: 10px;
+        padding-top: 21px;
+        font: normal 400 32px 'Oswald';
+        text-shadow: 2px 2px 2px rgba(26, 92, 56, 0.733);
+    }
+    
+    .h1-2{
+        text-align: left;
+        color: rgb(22, 89, 53);
+        font: normal 400 2em 'curso guanabara';
+        margin-top: 0%;
+        margin-left: 30px;
+        padding-top: 20px;
+    }
+    .p{
+        text-align: center;
+        color: white;
+    }
+
+    .p2{
+        text-indent: 30px;
+        font-family: sans-serif;
+        text-align: justify;
+        font-weight: 500;
+        line-height: 2;
+        padding-left: 30px; 
+        padding-right: 30px;
+    }
+
+    .div{
+        display: inline;
+        color: rgb(136, 208, 168);
+        margin: auto 12px;
+        font-family: sans-serif;
+        text-shadow: 2px 2px 2px rgba(16, 58, 35, 0.692);
+        font-weight: 600;
+        border-width: 10px;
+    }
+
+    .div:hover{
+        background: rgb(45, 155, 95);
+        color: rgb(0, 91, 34);
+        /* border: 2px solid rgb(45, 155, 95); */
+        border-width: auto;
+        border-style: solid;
+        border-color: rgb(45, 155, 95);
+        border-radius: 5px;
+    }
+
+    body{
+        margin: 0%;
+    }
+
+    main{
+        padding-left: 60px; 
+        padding-right: 60px; 
+        padding-bottom: 20px;
+        background-color: rgb(231, 229, 193);
+        box-shadow: inset 0px 5px 2px 0px rgba(161, 160, 135, 0.623);
+    }
+
+    .h2{
+        margin-left: 30px;
+        font: normal 400 2em 'curso guanabara';
+        color: rgb(11, 100, 46);
+        background-image: linear-gradient(to right, rgb(129, 227, 175),white);
+        padding-left: 5px
+    }
+
+    .span{
+        color: rgb(22, 89, 53);
+        font-weight: 600;
+    }
+
+    .span2{
+        background-color: rgb(129, 227, 175);
+        color: rgb(22, 89, 53);
+        font-weight: 600;
+        padding: 2px 4px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color: rgb(22, 89, 53);
+    }
+
+    #p{
+        background-color: rgb(47, 168, 102); 
+        color: white; 
+        font: normal 600 1em 'Inter'; 
+        margin-bottom: 0%; 
+        border: 2px; 
+        border-radius: 10px 10px 0px 0px;
+        padding: 5px;
+        text-align: justify;
+    }
+
+    .p3{
+        background-color: rgb(197, 235, 214);
+        color: black;
+        font: normal normal 1em 'Inter';
+        margin-top: 0%; 
+        text-indent: 30px;
+        margin-bottom: 0%;
+        line-height: 2;
+        text-align: justify;
+        padding: 0px 10px;
+    }
+
+    .li{
+        background-color: rgb(197, 235, 214); 
+        color: black;
+        font: normal normal 1em 'sans-serif';
+        margin-top: 0%; 
+        margin-bottom: 0%;
+        display: flex;
+        font-family: 'Inter';
+        /* border: 2px;
+        border-radius: 5px; */
+    }
+
+    ul li::before{
+        content: "✔";
+    }
+
+    .margin0{
+        margin: 0% auto;
+    }
+
+    #div_main{
+        background-color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        box-shadow: 4px 0px 2px rgba(161, 160, 135, 0.623), -4px 0px 2px rgba(161, 160, 135, 0.623), 0px 4px 2px rgba(161, 160, 135, 0.623);
+        border: 2px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    footer{
+        background-color: rgb(26, 92, 56);
+        color: white;
+        font: normal 100 1em 'Inter';
+        box-shadow: inset 0px -4px 2px 1px rgba(18, 63, 38, 0.671);
+        text-align: center;
+        min-height: 20px;
+    }
+
+    .span3{
+        font-weight: 600;
+    }
+</style>
+<body>
+    <header>
+        <h1 class="h1">
+            CURIOSIDADE DE TECNOLOGIAS
+        </h1>
+        <p class="p" style="font-family: sans-serif; text-shadow: 2px 2px 2px rgba(26, 92, 56, 0.726);" >
+            Tudo aquilo que você sempre quis saber sobre o mundo <br> Tech, em único lugar
+        </p>
+        <div class="div">
+            Home
+        </div>
+        <div class="div">
+            Noticias
+        </div>
+        <div class="div">
+            Curiosidades
+        </div>
+        <div class="div">
+            Fale Conosco
+        </div>
+    </header>
+    <main>
+        <div id="div_main"> 
+            <h1 class="h1-2">HISTÓRIA DO MASCOTE DO ANDROID</h1>
+            <p class="p2">
+                Provavelmente você sabe que o sistema operacional <span class="span">Android</span>, mantido pelo <span class="span">Google</span> é um dos mais utilizados para dispositivos móveis em todo o mundo. 
+                Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? 
+                Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
+            </p>
+            <h2 class="h2"> A primeira versão</h2>
+            <p class="p2">A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="#"><span class="span2">Dan Morrill 🔗</span></a>.
+                Ele conta que abriu o <a href="#"><span class="span2">Inkscape 🔗</span></a> (software livre para vetorização de imagens) e criou sua própria versão de robô. 
+                O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+            <picture>
+                <source media="(max-width: 1050px)" srcset="pacote-projeto-d010/imagens/dan-droids-pq.png" type="image/png" style="display: block; margin: auto;">
+                <img src="pacote-projeto-d010/imagens/dan-droids.png" alt="Robos" style="display: block; margin: auto;">
+            </picture>
+            <p class="p2">
+                Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os <span class="span">Dandroids</span>.
+            </p>
+            <h2 class="h2">Surge um novo mascote</h2>
+            <p class="p2">A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. 
+                A ilustradora Russa <a href="#"><span class="span2">Irina Blok 🔗</span></a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
+            </p>
+            <picture>
+                <source media="(max-width: 1050px)" srcset="pacote-projeto-d010/imagens/irina-block-pq.jpg" type="image/jpg" style="display: block; margin: auto;">
+                <img src="pacote-projeto-d010/imagens/irina-blok.jpg" alt="imagem de irina"  style="display: block; margin: auto;">
+            </picture>
+            <p class="p2">
+                A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. 
+                O desenho também deveria gerar identificação rápida com quem o olha. 
+                Surgiu então o <span class="span">Bugdroid</span>, o novo mascote do Android.
+            </p>
+            <img src="pacote-projeto-d010/imagens/bugdroid.png" alt="bug droid, atual mascote da android" style="display: block; margin: auto;">
+            <p class="p2">
+                A principal inspiração para os traços do novo <span class="span">Bugdroid</span> veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. 
+                Conta a lenda que a artista estava criando em sua mesa no escritório do <span class="span">Google</span> e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
+            </p>
+            <div style="background-color: rgb(5, 61, 30); text-align: center; padding-top: 15px; padding-bottom: 12px">
+                <iframe controls width="95%" max-width="800px" height="500px" src="https://www.youtube.com/embed/l2UDgpLz20M?si=-5V4LcP8ytglsxdd" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+            </div>
+            <div style="margin: 10px; border: 2px; border-radius: 10px; box-shadow: 2px 2px 2px 2px #acacaca1;">
+                <p id="p">Quer aprender mais?</p>
+                <p class="p3" style="padding-top: 30px;">
+                    Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce,
+                    em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
+                <div class="li">
+                    <ul style="list-style: none; text-align: left;">
+                        <li>
+                            1.5 - Cupcake
+                        </li>
+                        <li>
+                            1.6 - Donut
+                        </li>
+                        <li>
+                            3.0 - Eclairli
+                        </li>
+                        <li>
+                            2.2 - Froyoli
+                        </li>
+                        <li>
+                            2.3 - Gingerbreadli
+                        </li>
+                        <li>
+                            3.0 - Honeycombli
+                        </li>
+                        <li>
+                            4.0 - Ice Cream Sandwichli
+                        </li>
+                    </ul>
+                    <ul style="margin: auto; list-style: none;">
+                        <li>
+                            4.1 - Jelly Beanli
+                        </li>
+                        <li>
+                            4.4 - KitKatli
+                        </li>
+                        <li>
+                            5.0 - Lolipopli
+                        </li>
+                        <li>
+                            6.0 - Marshmallowli
+                        </li>
+                        <li>
+                            7.0 - Nougatli
+                        </li>
+                        <li>
+                            8.0 - Oreoli
+                        </li>
+                        <li>
+                            9.0 - Pieli
+                        </li>
+                    </ul>
+                </div>
+                <div class="p3" style="padding-bottom: 30px; border:  2px; border-radius: 0px 0px 10px 10px">
+                    <p class="margin0">Infelizmente, o <span class="span">Android Q</span> não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações,
+                        o que deu origem ao <span class="span">Android 10</span>.</p>
+                    <p class="margin0">Acesse aqui o site <a href="#"><span class="span2">Android History 🔗</span></a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+                </div>
+            </div>
+            <p class="p2" style="margin-bottom: 40px;">Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema <span class="span">Android</span> e seu simpático mascote.</p>
+        </div>
+    </main>
+    <footer>
+        site criado por <span class="span3">Gustavo Guanabara</span> para o <span class="span3">CursoemVideo</span>
+    </footer>
+</body>
+</html>

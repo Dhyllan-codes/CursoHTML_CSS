@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclass</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+
+        #h1{
+            background-color: blueviolet;
+        }
+
+        .h2{
+            background-color: deeppink;
+        }
+
+        div{
+            background-color: aliceblue;
+            text-align: left;
+            width: 150px;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: blueviolet;
+            background-color: chartreuse;
+        }
+
+        div:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h1">Subclasses em uso</h1>
+
+    <h2 class="h2">Utilizando as subclasses ao nosso favor</h2>
+
+    <div>
+        Passe o dedo aqui...
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, ad.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, voluptates?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, magnam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, praesentium.
+        </p>
+    </div>
+
+    <h2 class="h2">Fazendo novamente o mesmo teste</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, ad.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, voluptates?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, magnam!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, praesentium.
+    </p>
+</body>
+</html>
