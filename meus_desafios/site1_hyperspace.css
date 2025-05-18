@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+:root{
+            --cor001: #312450;
+            --cor002: #5e42a6;
+            --cor003: #b6a6cd;
+            --cor004: #5052b5;
+            --cor005: #4c4eac;
+            --cor006: #484aa3;
+            --cor007: #b74e91;
+            --cor008: #bb5797;
+            --cor009: #493382;
+            --cor010: white;
+        }
+
+*{
+    margin: 0px;
+}
+div#q1{
+    position: relative;
+    background-color: var(--cor001);
+    background-size: 100% 100%;
+    height: 100vh;
+    max-width: 400px;
+    margin: 0px;
+}
