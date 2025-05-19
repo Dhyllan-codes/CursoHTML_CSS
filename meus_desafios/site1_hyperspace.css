@@ -26,6 +26,7 @@
 
 header#q1{
     background-attachment: fixed;
+    
     padding: 10px;
     position: relative;
     background-color: var(--cor001);

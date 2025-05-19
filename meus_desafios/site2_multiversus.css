@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+
+div{
+    width: 50%;
+    height: 30px;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    position: relative;
+    /* height: 98vh;
+    width: 100%; */
+}
+
+/* div.div1{
+    position: absolute;
+    size: 50% 50%;
+    height: 50vh;
+    width: 50vh;
+} */
+
+div#div1{
+    position: absolute;
+    background-position: left top;
+}
+
+div#div2{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+div#div3{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+
+#div1:hover{
+    background-color: red;
+}
+
+#div2:hover{
+    background-color: green;
+}
