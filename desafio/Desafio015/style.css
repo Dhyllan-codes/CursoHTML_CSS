@@ -1,3 +1,32 @@
 *{
     margin: 0px;
 }
+
+div#fundo_full{
+    background-image: url(pacote-d013/pacote-d013/imagens/fundo-madeira.jpg);
+    background-size: 100% 100%;
+
+    position: relative;
+    height: 100vh;
+
+}
+
+article#cell{
+    /* position: absolute; */
+
+    background-image: url(pacote-d013/pacote-d013/imagens/frame-iphone.png);
+    background-size: contain;
+    background-attachment: fixed;
+
+    /* height: 50vh; */
+    
+    height: 100%; 
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* left: 50%;
+    top: 50%;
+            
+    transform: translate(-50%, -50%); */
+}
